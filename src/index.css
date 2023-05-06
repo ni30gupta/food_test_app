@@ -1,0 +1,71 @@
+:root {
+  --primary-color: #61002E; /* blue */
+  --secondary-color: #FFDCA6; /* gray */
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+  color: white;
+}
+
+.custom_btn{
+  padding: 15px 70px;
+  border-radius: 40px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.heading{
+  font-size: 140px;
+}
+
+.welocome_txt{
+  font-size: 30px;
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+
+.menu_text>h1 ,.menu_text>p , .about_txt>p, .about_txt>h1 {
+color: var(--primary-color);
+}
+.menu_text>h1, .about_txt>h1{
+  font-size: 60px;
+}
+.menu_text > p, .about_txt>p{
+  font-size: 20px;
+}
+
+.about_txt > p {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.text_primary>*{
+color: var(--primary-color);
+
+}
+.icon_container{
+  background: rgb(255, 220, 166);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu_list{
+  list-style: none;
+  color: var(--secondary-color);
+  height: 36%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
